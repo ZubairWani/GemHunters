@@ -1,0 +1,71 @@
+.SignupWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    padding: 40px 30px;
+    background-image: url('../../assets//images/Group\ 21.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    h1 {
+
+        color: white;
+
+        span {
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+    }
+
+
+    p {
+        color: white;
+        text-align: center;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        gap: 20px;
+
+
+        li {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            border: 5px solid rgba(29, 65, 98, 0.3490196078);
+            padding: 10px 30px 0 30px;
+            gap: 10px;
+            position: relative;
+
+
+
+            h3 {}
+
+            p {
+                text-align: left;
+                color: gray;
+            }
+            
+            
+            .img4 {
+                
+            }
+
+            .img5 {
+            }
+            
+            .img6 {
+            }
+
+        }
+
+        ;
+    }
+
+}

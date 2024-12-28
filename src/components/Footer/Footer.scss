@@ -1,0 +1,19 @@
+.footer{
+    background-color: #12253C;
+    .head{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 100px 0px 100px;
+        
+        h4{
+            color: white;
+            font-size: 16px
+        }
+    }
+    
+    .text{
+        padding: 30px 100px 30px 100px;
+        color: white;
+        font-size: 12px
+    }
+}

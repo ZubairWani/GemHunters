@@ -1,0 +1,72 @@
+.price-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0e18; // Page background
+    padding: 40px;
+    
+  
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #111827; // Border background
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+      width: 80%; // Adjust as per the design
+      max-width: 1200px;
+  
+      .content {
+        flex: 1;
+        max-width: 50%;
+        
+        h1 {
+          font-size: 2.5rem;
+          font-weight: bold;
+          margin-bottom: 1rem;
+          color: white;
+        
+        
+        }
+  
+        p {
+          font-size: 1.2rem;
+          line-height: 1.6;
+          margin-bottom: 1.5rem;
+          color: white;
+        }
+  
+        .cta-button {
+          background-color: #007bff;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          font-size: 1rem;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+  
+          &:hover {
+            background-color: #0056b3;
+          }
+        }
+      }
+  
+      .image-container {
+        flex: 1;
+        max-width: 50%;
+        display: flex;
+        justify-content: center;
+  
+        .graphic-image {
+          width: 100%;
+          max-width: 400px; // Adjust for size
+          height: auto;
+        }
+      }
+    }
+  }
+  
+  

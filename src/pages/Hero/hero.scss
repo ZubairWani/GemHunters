@@ -1,0 +1,111 @@
+.hero {
+    background-image: url('../../assets//images/Mask\ group.png'); // Replace with your image path
+    background-size: cover; // Ensures the image covers the entire section
+    background-position: center; // Centers the image
+    background-repeat: no-repeat; // No repetition
+    padding: 40px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    // max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+  
+    .hero-content {
+      flex: 1;
+      max-width: 600px;
+  
+      h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        font-weight: bold;
+  
+        span {
+          color: #007bff; // Highlighted text
+        }
+      }
+  
+      p {
+        margin: 20px 0;
+        line-height: 1.6;
+      }
+  
+      ul {
+        list-style: none;
+        padding: 0;
+  
+        li {
+          margin: 10px 0;
+          font-size: 1rem;
+          display: flex;
+          align-items: center;
+  
+          &:before {
+            content: "✔";
+            color: #007bff;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+    
+   .heroimg{
+    .img1{
+        width: 300px;
+        position: absolute;
+        top: 55%;
+        right: 40%;
+        
+    }
+   }
+  
+    .hero-form {
+      background: rgba(0, 45, 90, 0.9); // Slightly transparent background for the form
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      max-width: 400px;
+      flex: 1;
+  
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+      }
+  
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+  
+        input,
+        select,
+        textarea {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #004080;
+          border-radius: 5px;
+          background: #001d3d;
+          color: #ffffff;
+        }
+  
+        button {
+          background: #007bff;
+          color: #ffffff;
+          border: none;
+          padding: 10px 20px;
+          font-size: 1rem;
+          font-weight: 500;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+  
+          &:hover {
+            background: #0056b3;
+          }
+        }
+      }
+    }
+  }
+  
