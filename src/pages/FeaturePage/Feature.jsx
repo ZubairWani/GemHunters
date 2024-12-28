@@ -9,7 +9,7 @@ export const Feature = () => {
     <div className="left">
         <h1>Your Trusted Guide in the Crypto Market</h1>
         <p>Gem Hunters simplifies the complex world of crypto with research-backed insights and expert guidance, designed for every investor. </p>
-        <Button />
+        <Button text={"Start Your Journey Today"}/>
         <div className="leftimages">
         <img className='img3' src={img3} alt="" />
         <img className='img2' src={img2} alt="" />

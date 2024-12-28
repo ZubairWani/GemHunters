@@ -14,9 +14,9 @@ export const Hero = () => {
           the market.
         </p>
         <ul>
-          <li>📊 In-depth market analysis</li>
-          <li>✅ Actionable investment reports</li>
-          <li>🔰 Designed for beginners and pros alike</li>
+          <li> In-depth market analysis</li>
+          <li> Actionable investment reports</li>
+          <li> Designed for beginners and pros alike</li>
         </ul>
         
       </div>

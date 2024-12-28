@@ -1,12 +1,13 @@
 import React from 'react'
 import './Navbar.scss'
+import logImg from '../../assets/images/image 2.png'
 export const Navbar = () => {
   return (
     <nav className="navbar">
-    <div className="navbar-container">
-      <div className="logo">GEM HUNTERS</div>
+
+      <img src={logImg} alt="log img" />
       <button className="cta-button">Start Your Journey Today</button>
-    </div>
-  </nav>
+
+    </nav>
   )
 }
