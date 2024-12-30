@@ -1,0 +1,17 @@
+@import "./variables";
+
+@mixin flex-row($ai: center, $c-gap: $base-gap, $c-flex: 1) {
+    display: flex;
+    flex: $c-flex;
+    flex-direction: row;
+    align-items: $ai;
+    gap: $c-gap;
+}
+
+@mixin flex-column($ai: center, $c-gap: $base-gap, $c-flex: 1) {
+    display: flex;
+    flex: $c-flex;
+    flex-direction: column;
+    align-items: $ai;
+    gap: $c-gap;
+}

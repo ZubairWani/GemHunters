@@ -1,0 +1,8 @@
+@import "../../assets/scss/utlis";
+@import "../../assets/scss/variables";
+
+.sectionComponent{
+    @include flex-row(flex-start);
+    padding: $base-padding * 3 $base-padding * 10;
+    height: 100vh;
+}

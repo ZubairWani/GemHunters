@@ -1,0 +1,49 @@
+@import "../../../assets/scss/theme_color";
+@import "../../../assets/scss/utlis";
+@import "../../../assets/scss/variables";
+
+.hero {
+    background-image: url("../../../assets//images/Mask\ group.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: calc(100vh - 85px) !important;
+    width: 100%;
+    .hero-content {
+        @include flex-column(flex-start, $base-gap * 2, $c-flex: 1.5);
+        color: $text;
+        h1 {
+            font-size: $base-font-size-xxlg * 1.25; // 4.375rem
+            font-weight: $base-font-weight * 9;
+            text-transform: uppercase;
+            letter-spacing: -1.5px;
+            line-height: 80px;
+            width: 70%;
+            span {
+                color: $secondary; // Highlighted text
+            }
+        }
+        p {
+            font-size: $base-font-size-md;
+            width: 50%;
+            line-height: 30px;
+        }
+        ul {
+            @include flex-column(flex-start, $base-gap * 2);
+            li {
+                @include flex-row(center, $base-gap);
+                font-size: $base-font-size-sm;
+                img {
+                    width: 20px;
+                }
+            }
+        }
+    }
+
+    .miner {
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+    }
+}

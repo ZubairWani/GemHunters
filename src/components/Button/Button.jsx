@@ -1,7 +1,7 @@
 import React from 'react'
 import './Button.scss'
-export const Button = ({text}) => {
+export const Button = ({type, text}) => {
   return (
-    <button className="cta-button"> {text} </button>
+    <button type={type} className="cta-button"> {text} </button>
   )
 }

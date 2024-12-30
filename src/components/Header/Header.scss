@@ -1,0 +1,16 @@
+@import "../../assets/scss/theme_color";
+
+.navbar {
+    background-color: $tertiary; // Dark blue from the design
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    .logo {
+        width: 250px;
+    }
+}

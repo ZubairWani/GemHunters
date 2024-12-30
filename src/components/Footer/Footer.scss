@@ -1,19 +1,31 @@
-.footer{
-    background-color: #12253C;
-    .head{
+@import "../../assets/scss/theme_color";
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: $tertiary;
+    padding: 40px 100px;
+
+    .head {
         display: flex;
+        align-items: center;
         justify-content: space-between;
-        padding: 50px 100px 0px 100px;
-        
-        h4{
-            color: white;
-            font-size: 16px
+        width: 100%;
+
+        h4 {
+            color: $text;
+            font-size: 12px;
+            font-weight: 400;
+            text-decoration: underline;
         }
     }
-    
-    .text{
-        padding: 30px 100px 30px 100px;
-        color: white;
-        font-size: 12px
+
+    p {
+        color: $text;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
     }
 }

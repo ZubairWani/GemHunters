@@ -1,0 +1,44 @@
+@import "../../../../assets/scss/utlis";
+@import "../../../../assets/scss/variables";
+@import "../../../../assets/scss/theme_color";
+
+.form-content {
+    @include flex-column(none, $c-gap: $base-gap * 2, $c-flex: 0.5);
+    padding: $base-padding * 3;
+    border: $base-border-thickness * 2 solid $border;
+    border-radius: $base-border-radius;
+    background: rgba(0, 0, 0, 0); 
+    backdrop-filter: blur(5px); 
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    h2 {
+        color: $text;
+        font-size: $base-font-size-xmd;
+        text-transform: uppercase;
+    }
+
+    form {
+        @include flex-column(none, $c-flex: 0.7);
+
+        .form-group {
+            // border: 1px solid red;
+            @include flex-column(flex-start, $base-gap * 0.5);
+            width: 100%;
+            label {
+                color: $text;
+                font-size: $base-font-size-xsm;
+            }
+
+            input,
+            textarea,
+            select {
+                width: 100%;
+                border: $base-border-thickness * 2 solid $border;
+                background-color: transparent;
+                border-radius: $base-border-radius * 0.5;
+                padding: $base-padding;
+                color: $text;
+                outline: none;
+            }
+        }
+    }
+}

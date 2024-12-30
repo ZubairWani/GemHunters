@@ -1,7 +1,14 @@
 import React from 'react'
 import './MainLayout.scss'
-export const MainLayout = () => {
+import { Header } from '../../Header/Header'
+import { Footer } from '../../Footer/Footer'
+
+export const MainLayout = ({ children }) => {
   return (
-    <div>MainLayout</div>
+    <>
+      <Header />
+      {children}
+      <Footer />
+    </>
   )
 }

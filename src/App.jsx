@@ -20,14 +20,11 @@ export const App = () => {
   return (
     <>
       <Router>
-
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-
           <Route path="*" element={<NoPage />} />
         </Routes>
-
       </Router>
 
     </>
