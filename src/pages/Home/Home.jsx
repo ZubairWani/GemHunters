@@ -7,11 +7,19 @@ import { CommunityPage } from '../CommunityPage/CommunityPage';
 import { PhoneSection } from '../PhoneSection/phoneSection';
 import { NetworkSection } from '../NetworkSection/NetworkSection';
 import { TrustedSection } from '../TrustedSection/TrustedSection';
-import { Faq } from '../Faq/Faq';
+
 import { Footer } from '../../components/Footer/Footer';
-import { Gem } from '../GemSection/Gem';
+
 
 import { MainLayout } from "../../components/Layouts/MainLayout/MainLayout"
+import { Featue } from '../../components/HomeSections/Feature/Featue';
+import { SignUp } from '../../components/HomeSections/SignUp/SignUp';
+import { Community } from '../../components/HomeSections/Community/Community';
+import { Phone } from '../../components/HomeSections/Phone/Phone';
+import { Network } from '../../components/HomeSections/Network/Network';
+import { Trusted } from '../../components/HomeSections/Trusted/Trusted';
+import { Faq } from '../../components/HomeSections/Faq/Faq';
+import { Gem } from '../../components/HomeSections/Gem/Gem';
 
 
 export const Home = () => {
@@ -44,6 +52,14 @@ export const Home = () => {
       <Gem /> */}
       <main className='home'>
         <Hero />
+        <Featue />
+        <SignUp />
+        <Community />
+        <Phone/>
+        <Network/>
+        <Trusted/>
+        <Faq/>
+        <Gem/>
       </main>
     </MainLayout >
   );
