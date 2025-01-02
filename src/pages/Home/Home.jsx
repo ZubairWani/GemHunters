@@ -21,10 +21,10 @@ export const Home = () => {
         <SignUp />
         <Community />
         <Phone/>
-        <Network/>
-        <Trusted/>
-        <Faq/>
-        <Gem/>
+        {/* <Network/> */}
+        {/* <Trusted/> */}
+        {/* <Faq/> */}
+        {/* <Gem/> */}
       </main>
     </MainLayout >
   );

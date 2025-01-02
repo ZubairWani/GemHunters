@@ -2,25 +2,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 64px 64px 80px 64px ;
     color: #ffffff;
     background-image: url('../../../assets//images/Group\ 26.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
+    gap: 5px;
+    height: 100%;
 
     .title {
+        line-height: 50px;
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         font-weight: bold;
-        margin-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-transform: uppercase;
 
         span {
-            color: #4bcaff; 
+            color: #0079EB;
         }
     }
 
@@ -40,6 +43,8 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 1.5rem;
+        padding-bottom: 40px;
+        
 
         .testimonial-card {
             background: linear-gradient(145deg, #12273c, #0a1324);

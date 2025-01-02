@@ -20,7 +20,7 @@ export const Community = () => {
                 {testimonials.map((item, index) => (
                 <div className="testimonial-card" key={index}>
                     <div className="profile-pic">
-                    {/* Placeholder for profile pictures */}
+                    
                     <img src={`https://via.placeholder.com/50?text=${item.name[0]}`} alt={`${item.name}`} />
                     </div>
                     <h3 className="name">{item.name}</h3>

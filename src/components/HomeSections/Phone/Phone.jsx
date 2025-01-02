@@ -2,7 +2,7 @@ import React from 'react'
 import { Section } from '../../Section/Section'
 import { Button } from '../../Button/Button'
 import phoneImg from '../../../assets/images/image 13.png';
-
+import './Phone.scss'
 export const Phone = () => {
     return (
         <Section name={"flex-row phone-section"}>

@@ -4,7 +4,7 @@ import { Button } from '../../Button/Button'
 import img4 from '../../../assets/images/Group 25.png'
 import img5 from '../../../assets/images/Group 26 (1).png';
 import img6 from '../../../assets/images/image 5 (1).png';
-
+import './SignUp.scss'
 export const SignUp = () => {
     return (
         <Section name={"flex-row SignupWrapper"}>
