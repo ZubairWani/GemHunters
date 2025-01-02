@@ -26,15 +26,10 @@
 
     .scroll-container {
         display: flex;
-        overflow-x: auto;
+        overflow-x: scroll;
         gap: 20px;
         padding: 20px 0;
-
-        /* Hide scrollbar */
-        scrollbar-width: none;
-        /* For Firefox */
-        -ms-overflow-style: none;
-        /* For Internet Explorer and Edge */
+        width: 100%;
 
         &::-webkit-scrollbar {
             display: none;

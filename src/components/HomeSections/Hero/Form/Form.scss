@@ -4,7 +4,8 @@
 
 .form-content {
     @include flex-column(none, $c-gap: $base-gap * 2, $c-flex: 0.5);
-    padding: $base-padding * 3;
+    padding: $base-padding * 1.5 $base-padding * 3;
+    
     border: $base-border-thickness * 2 solid $border;
     border-radius: $base-border-radius;
     background: rgba(0, 0, 0, 0); 
@@ -35,7 +36,7 @@
                 border: $base-border-thickness * 2 solid $border;
                 background-color: black;
                 border-radius: $base-border-radius * 0.5;
-                padding: $base-padding;
+                padding: $base-padding ;
                 color: $text;
                 outline: none;
             }
