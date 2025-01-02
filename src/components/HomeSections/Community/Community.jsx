@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from '../../Button/Button'
 import { Section } from '../../Section/Section';
-
+import './Community.scss'
 export const Community = () => {
     const testimonials = [
         { name: 'Vanessa Chambers', location: 'Westheimer', text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },

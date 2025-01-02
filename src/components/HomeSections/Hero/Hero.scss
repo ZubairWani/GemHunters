@@ -8,7 +8,7 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    height: calc(100vh - 85px) !important;
+    height: calc(100vh - 35px) !important;
     width: 100%;
     .hero-content {
         @include flex-column(flex-start, $base-gap * 2, $c-flex: 1.5);

@@ -1,0 +1,92 @@
+.trusted-section {
+    text-align: center;
+    background-color: #0a0e18;
+    padding: 50px 20px;
+    
+    background-image: url('../../../assets//images/Mask\ group\ \(1\).png'); // Replace with your image path
+    background-size: cover ; // Ensures the image covers the entire section
+    background-position: center; // Centers the image
+    background-repeat: no-repeat; // No repetition
+    flex-direction: column !important;
+    .header {
+        margin-bottom: 30px;
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #9ca3af;
+            margin-top: 10px;
+        }
+    }
+
+    .scroll-container {
+        display: flex;
+        overflow-x: auto;
+        gap: 20px;
+        padding: 20px 0;
+
+        /* Hide scrollbar */
+        scrollbar-width: none;
+        /* For Firefox */
+        -ms-overflow-style: none;
+        /* For Internet Explorer and Edge */
+
+        &::-webkit-scrollbar {
+            display: none;
+            /* For Chrome, Safari, and Opera */
+        }
+
+        .card {
+            background-color: #111827;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+            width: 300px;
+            flex-shrink: 0;
+            text-align: left;
+
+            img {
+                width: 40px;
+                height: 40px;
+                margin-bottom: 15px;
+            }
+
+            h3 {
+                font-size: 1.5rem;
+                color: #ffffff;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 1rem;
+                color: #9ca3af;
+                line-height: 1.6;
+            }
+        }
+    }
+
+    .navigation {
+        margin-top: 20px;
+
+        .arrow {
+            background-color: #111827;
+            color: #0056b3;
+            border: none;
+            padding: 8px 16px;
+            font-size: 1.3rem;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin: 0 10px;
+
+            &:hover {
+                background-color: #0d2135;
+            }
+        }
+    }
+}
