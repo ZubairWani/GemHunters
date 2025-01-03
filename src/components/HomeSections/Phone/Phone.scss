@@ -1,9 +1,9 @@
 .phone-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-around;
     background-color: #0a1324; // Adjust the background color
-    padding: 2rem 4rem;
+    padding: 64px 100px 64px 100px;
     color: #ffffff;
     
     background-image: url('../../../assets/images/Group\ 41.png'); 
@@ -15,20 +15,22 @@
       max-width: 50%;
   
       .title {
-        font-size: 2.5rem;
+        line-height: 60px;
+        font-size: 46px;
         font-weight: bold;
         margin-bottom: 1rem;
+        text-transform: uppercase;
   
         span {
-          color: #4bcaff; // Highlight color
+          color: #0079EB; // Highlight color
         }
       }
   
       .description {
-        font-size: 1.1rem;
+        font-size: 16px;
         line-height: 1.8;
         color: #dce7f7;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
       }
     }
   

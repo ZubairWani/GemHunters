@@ -1,0 +1,177 @@
+.network-section {
+    background-color: #0a1324; // Dark background
+    color: #ffffff;
+    padding: 3rem 4rem;
+
+    background-image: url('../../../assets//images/Group\ 45.png'); // Replace with your image path
+    background-size: cover; // Ensures the image covers the entire section
+    background-position: center; // Centers the image
+    background-repeat: no-repeat; // No repetition
+    flex-direction: column !important;
+    height: unset !important;
+
+    .section-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .badge {
+        text-align: center;
+        font-size: 1rem;
+        background-color: #243e55;
+        color: #4bcaff;
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        margin-bottom: 2rem;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 2rem;
+
+        .feature-card {
+            background-color: #152033;
+            border: 1px solid #243e55;
+            border-radius: 10px;
+            padding: 2rem;
+            flex: 1;
+            min-width: 300px;
+            display: flex;
+
+            align-items: center;
+            gap: 1rem;
+
+            .feature-title {
+                font-size: 1.5rem;
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+
+            .feature-description {
+                font-size: 1rem;
+                color: #dce7f7;
+                text-align: center;
+                line-height: 1.6;
+            }
+
+            .feature-image,
+            .financial-chart {
+                width: 100%;
+                max-width: 316px; // Match Figma
+                margin: 1rem auto;
+
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        .financial {
+            .financial-data {
+                display: flex;
+                justify-content: space-between;
+                gap: 1rem;
+                margin-bottom: 1rem;
+
+                .data-block {
+                    background-color: #1b2940;
+                    padding: 1rem;
+                    border-radius: 8px;
+                    text-align: center;
+
+                    h4 {
+                        font-size: 1.25rem;
+                        font-weight: bold;
+                        color: #4bcaff;
+                    }
+
+                    p {
+                        font-size: 0.9rem;
+                        color: #dce7f7;
+                    }
+                }
+            }
+        }
+    }
+
+    .price-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0a0e18; // Page background
+        padding: 40px;
+
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #111827; // Border background
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+            width: 80%; // Adjust as per the design
+            max-width: 1200px;
+
+            .content {
+                flex: 1;
+                max-width: 50%;
+
+                h1 {
+                    font-size: 2.5rem;
+                    font-weight: bold;
+                    margin-bottom: 1rem;
+                    color: white;
+
+
+                }
+
+                p {
+                    font-size: 1.2rem;
+                    line-height: 1.6;
+                    margin-bottom: 1.5rem;
+                    color: white;
+                }
+
+                .cta-button {
+                    background-color: #007bff;
+                    color: white;
+                    border: none;
+                    padding: 10px 20px;
+                    font-size: 1rem;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+
+                    &:hover {
+                        background-color: #0056b3;
+                    }
+                }
+            }
+
+            .image-container {
+                flex: 1;
+                max-width: 50%;
+                display: flex;
+                justify-content: center;
+
+                .graphic-image {
+                    width: 100%;
+                    max-width: 400px; // Adjust for size
+                    height: auto;
+                }
+            }
+        }
+    }
+
+
+}

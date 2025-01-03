@@ -21,7 +21,7 @@ export const Home = () => {
         <SignUp />
         <Community />
         <Phone/>
-        {/* <Network/> */}
+        <Network/>
         {/* <Trusted/> */}
         {/* <Faq/> */}
         {/* <Gem/> */}
