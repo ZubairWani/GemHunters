@@ -22,7 +22,7 @@ export const Home = () => {
         <Community />
         <Phone/>
         <Network/>
-        {/* <Trusted/> */}
+        <Trusted/>
         {/* <Faq/> */}
         {/* <Gem/> */}
       </main>

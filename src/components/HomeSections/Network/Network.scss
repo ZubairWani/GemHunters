@@ -9,57 +9,73 @@
     background-repeat: no-repeat; // No repetition
     flex-direction: column !important;
     height: unset !important;
-
-    .section-title {
-        font-size: 2.5rem;
-        font-weight: bold;
-        margin-bottom: 1rem;
-        text-align: center;
+    
+    
+    .head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            text-align: center;
+            text-transform: uppercase;
+            
+            span{
+                color: #0079EB;
+            }
+        }
+    
+        .badge {
+            text-align: center;
+            font-size: 1rem;
+            background-color: #243e55;
+            color: #4bcaff;
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            margin-bottom: 2rem;
+        }
     }
 
-    .badge {
-        text-align: center;
-        font-size: 1rem;
-        background-color: #243e55;
-        color: #4bcaff;
-        display: inline-block;
-        padding: 0.5rem 1rem;
-        border-radius: 20px;
-        margin-bottom: 2rem;
-    }
+   
 
     .features {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         align-items: flex-start;
         gap: 2rem;
 
         .feature-card {
-            background-color: #152033;
-            border: 1px solid #243e55;
             border-radius: 10px;
             padding: 2rem;
             flex: 1;
             min-width: 300px;
             display: flex;
-
+            justify-content: center;
             align-items: center;
-            gap: 1rem;
-
-            .feature-title {
-                font-size: 1.5rem;
-                font-weight: bold;
-                text-align: center;
-                margin-bottom: 1rem;
+            
+            
+            .left{
+                width: 40%;
+                .feature-title {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-bottom: 1rem;
+                }
+    
+                .feature-description {
+                    font-size: 1rem;
+                    color: #dce7f7;
+                    text-align: center;
+                    line-height: 1.6;
+                }
             }
 
-            .feature-description {
-                font-size: 1rem;
-                color: #dce7f7;
-                text-align: center;
-                line-height: 1.6;
-            }
+            
 
             .feature-image,
             .financial-chart {
@@ -75,28 +91,19 @@
         }
 
         .financial {
-            .financial-data {
-                display: flex;
-                justify-content: space-between;
-                gap: 1rem;
-                margin-bottom: 1rem;
-
-                .data-block {
-                    background-color: #1b2940;
-                    padding: 1rem;
-                    border-radius: 8px;
+            .right{
+                .feature-title {
+                    font-size: 1.5rem;
+                    font-weight: bold;
                     text-align: center;
-
-                    h4 {
-                        font-size: 1.25rem;
-                        font-weight: bold;
-                        color: #4bcaff;
-                    }
-
-                    p {
-                        font-size: 0.9rem;
-                        color: #dce7f7;
-                    }
+                    margin-bottom: 1rem;
+                }
+    
+                .feature-description {
+                    font-size: 1rem;
+                    color: #dce7f7;
+                    text-align: center;
+                    line-height: 1.6;
                 }
             }
         }
@@ -106,8 +113,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #0a0e18; // Page background
-        padding: 40px;
+        padding: 40px 80px;
 
 
         .container {
@@ -115,7 +121,7 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
-            background-color: #111827; // Border background
+            border: 1px solid #243e55;
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);

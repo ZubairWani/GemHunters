@@ -1,6 +1,15 @@
 import React, { useRef } from 'react'
 import { Section } from '../../Section/Section'
 import './Trusted.scss'
+
+import icon1 from '../../../assets/images/Icon1.png'
+import icon2 from '../../../assets/images/Icon2.png'
+import icon3 from '../../../assets/images/Icon3.png'
+import icon4 from '../../../assets/images/Icon4.png'
+import icon5 from '../../../assets/images/Icon5.png'
+import icon6 from '../../../assets/images/Icon6.png'
+
+
 export const Trusted = () => {
   const scrollRef = useRef(null);
 
@@ -29,64 +38,64 @@ export const Trusted = () => {
 
       <div className="scroll-container" ref={scrollRef}>
         <div className="card">
-          <img src="/path-to-elite-partnership-icon.png" alt="Elite Partnerships" />
-          <h3>Elite Partnerships</h3>
+          <div className="head">
+            <img src={icon1} alt="Elite Partnerships" />
+            <h3>Elite Partnerships</h3>
+          </div>
           <p>
             We merge insights of seasoned researchers, key opinion leaders, and traders.
             Our reports are rooted in practical knowledge gained from our daily involvement in crypto.
           </p>
         </div>
         <div className="card">
-          <img src="/path-to-trend-setting-icon.png" alt="Trend Setting" />
-          <h3>Trend Setting</h3>
+          <div className="head">
+            <img src={icon2} alt="Trend Setting" />
+            <h3>Trend Setting</h3>
+          </div>
           <p>
             The crypto markets are influenced by trends and narratives. Our detailed reports
             are designed to provide you with an advantage before these trends become mainstream.
           </p>
         </div>
         <div className="card">
-          <img src="/path-to-weekly-updates-icon.png" alt="Weekly Updates" />
-          <h3>Weekly Updates</h3>
+          <div className="head">
+            <img src={icon3} alt="Weekly Updates" />
+            <h3>Weekly Updates</h3>
+          </div>
+
           <p>
             New market opportunities are constantly emerging. Our team is always working to
             provide fresh insights and weekly analysis on different crypto trends.
           </p>
         </div>
         <div className="card">
-          <img src="/path-to-simplified-guidance-icon.png" alt="Simplified Guidance" />
-          <h3>Simplified Guidance</h3>
+          <div className="head">
+            <img src={icon4} alt="Simplified Guidance" />
+            <h3>Simplified Guidance</h3>
+          </div>
+
           <p>
             We take complex topics and simplify them, helping you accelerate your learning curve
             and optimize your crypto journey. We distill insights to make them easy to apply.
           </p>
         </div>
         <div className="card">
-          <img src="/path-to-simplified-guidance-icon.png" alt="Simplified Guidance" />
-          <h3>Simplified Guidance</h3>
+          <div className="head">
+            <img src={icon5} alt="Simplified Guidance" />
+            <h3>Simplified Guidance</h3>
+          </div>
+
           <p>
             We take complex topics and simplify them, helping you accelerate your learning curve
             and optimize your crypto journey. We distill insights to make them easy to apply.
           </p>
         </div>
         <div className="card">
-          <img src="/path-to-simplified-guidance-icon.png" alt="Simplified Guidance" />
-          <h3>Simplified Guidance</h3>
-          <p>
-            We take complex topics and simplify them, helping you accelerate your learning curve
-            and optimize your crypto journey. We distill insights to make them easy to apply.
-          </p>
-        </div>
-        <div className="card">
-          <img src="/path-to-simplified-guidance-icon.png" alt="Simplified Guidance" />
-          <h3>Simplified Guidance</h3>
-          <p>
-            We take complex topics and simplify them, helping you accelerate your learning curve
-            and optimize your crypto journey. We distill insights to make them easy to apply.
-          </p>
-        </div>
-        <div className="card">
-          <img src="/path-to-simplified-guidance-icon.png" alt="Simplified Guidance" />
-          <h3>Simplified Guidance</h3>
+          <div className="head">
+            <img src={icon6} alt="Simplified Guidance" />
+            <h3>Simplified Guidance</h3>
+          </div>
+
           <p>
             We take complex topics and simplify them, helping you accelerate your learning curve
             and optimize your crypto journey. We distill insights to make them easy to apply.
