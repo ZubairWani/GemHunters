@@ -23,7 +23,7 @@ export const Home = () => {
         <Phone/>
         <Network/>
         <Trusted/>
-        {/* <Faq/> */}
+        <Faq/>
         {/* <Gem/> */}
       </main>
     </MainLayout >
